@@ -24,12 +24,12 @@
 	
 	"food":["steak", "potatoes", "tilapia", "salmon", "tacos", "cupcakes", "chocolate", "crepes", "pad thai", "duck",
           "turkey", "spaghetti", "filet mignon", "ramen", "spam", "curry", "frog legs","garbage plates", "burritos",
-          "cereal", "rice", "beans", "sushi","fried rice","tuna", "pasta", "pizza", "orange chicken", "poke bowl", "lechon", "a #amount# of dirt", "a #amount# of #ingredient#",
+          "cereal", "rice", "beans", "sushi","a Krabby Patty","fried rice","tuna", "pasta", "pizza", "orange chicken", "poke bowl", "lechon", "a #amount# of dirt", "a #amount# of #ingredient#",
           "pulled pork","beef brisket","Caesar salad","chicken","ratatouille","ice cream","dumplings","wonton soup", "lobster"],
 	
 	"ingredient":["ketchup", "hummus","marshmallow fluff","mustard", "sprinkles","kimchi", "soy sauce", "onions", "gluten",
                 "pickles", "anchovies", "salt", "ginger", "mayo", "hot sauce", "raisins", "sesame seeds","sugar",
-                "peanuts", "peanut butter", "jelly","peach jam","pesto","bean sprouts","caramel"],
+                "peanuts", "peanut butter", "jelly","peach jam","pesto","bean sprouts","caramel", "frosting", "chocolate sauce"],
   
   "amount":["bowl","mouthful","taste","bite","bucket"],
 	
@@ -45,12 +45,15 @@
 	
 	"timeunit":["minutes", "hours", "days", "weeks", "years", "lifetimes", "eons", "seconds"],
 	
-	"celebrity":["Mariah Carey", "Beyonce", "Donald Trump", "Ariana Grande", 
+	"celebrity":["Mariah Carey", "Rihanna","Beyonce", "Donald Trump", "Ariana Grande", 
                "Snoop Dogg", "Miley Cyrus", "My mom", "Joe..JoeMama", "Lil nas x", 
                "Your principal", "North West","Barack Obama","Carly Rae Jepsen","Lady Gaga","Hilary Duff",
-               "Jimmy Kimmel","Spongebob", "Mickey Mouse", "Gordon Ramsey", "Guy Fieri", "Kim K"],
+               "Jimmy Kimmel","Spongebob", "Mickey Mouse", "Gordon Ramsey", "Guy Fieri", "Kim K","Eric Trump", 
+               "Mark Zuckerberg", "Lebron James", "Serena Williams", "Simone Biles", "George Washington", "Marth Stewart", "Troy Bolton",
+               "Bernie Sanders", "Walt Disney", "Bart Simpson"
+              ],
 	
 	"location":["France", "Maine", "Kentucky", "Alaska", "Hawaii", "Idaho", 
-              "Italy", "England", "the bathroom", "Hell's Kitchen", "Turkey"]
+              "Italy", "England", "the bathroom", "Hell's Kitchen", "Turkey", "Spain", "the moon", "the dining hall"]
 	}
 

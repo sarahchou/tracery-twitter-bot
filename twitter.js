@@ -31,7 +31,7 @@ function postTweet(status){
 module.exports.tryToTweet = function(status){
   var now = Date.now(), // time since epoch in millisecond
       lastRun = storage.getItemSync("lastRun") || 0, // last time we were run in milliseconds
-      postDelay = process.env.POST_DELAY_IN_MINUTES || 60;// time to delay between tweets in minutes
+      postDelay = process.env.POST_DELAY_IN_MINUTES || 240;// time to delay between tweets in minutes
   
   if (!twit){
     console.error("Sorry, have haven't setup twitter yet in your .env")
