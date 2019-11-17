@@ -1,103 +1,56 @@
 {
-	"origin": [
-		"... take the #ordinal# #direction# after #landmark# ...",
-		"... continue past #landmark#, then turn #direction# ...",
-		"... you should go past #landmark# ...",
-		"... be on the lookout for #landmark# ...",
-		"... cut through to the #direction# ...",
-		"... carry on for #distance# ...",
-		"(if you see #landmark# #too far#)",
-		"... carry on past #landmark# ...",
-		"... go past #landmark# ...",
-		"... then under #bridge# ...",
-		"... there'll be #landmark# to your #direction# ...",
-		"... then past #landmark# ...",
-		"... take the #ordinal# #direction# ...",
-		"... continue for #distance# ...",
-		"... after #distance#, turn #direction# ...",
-		"... then turn #direction# ...",
-		"... turn #direction# here ...",
-		"... #ordinal# #direction# ...",
-		"... #direction# ...",
-		"... veer #direction# #possiblejunction# ...",
-		"... keep going til you see #landmark# ..."
-	],
-	"direction": [
-		"left",
-		"right"
-	],
-	"ordinal": [
-		"first",
-		"second",
-		"third"
-	],
-	"landmark": [
-		"the McDonalds",
-		"a rather nice pub",
-		"the petrol station",
-		"the old church",
-		"a little church",
-		"a small copse",
-		"the roundabout",
-		"a rather pretty little village green",
-		"the motorway",
-		"the canal",
-		"a pub",
-		"the signpost",
-		"a massive oak tree",
-		"a white building",
-		"the town center",
-		"a corner shop",
-		"the Co-op",
-		"the big Tescos",
-		"Morrisons",
-		"a multistorey",
-		"that italian restaurant we went to that one time",
-		"the river",
-		"boats",
-		"the fairground",
-		"the park",
-		"a pizza place"
-	],
-	"distance": [
-		"half a mile",
-		"a few hundred meters",
-		"a few more minutes",
-		"a little bit further",
-		"a few miles",
-		"one and a half miles",
-		"a while",
-		"3 miles",
-		"a few more turnings",
-		"a few blocks",
-		"most of the way down",
-		"about a kilometer",
-		"a mile",
-		"a bit",
-		"- well, it's about 10 minutes on foot",
-		"half a kilometer",
-		"nearly ten miles",
-		"just under four miles"
-	],
-	"bridge": [
-		"the bridge",
-		"the motorway",
-		"a railway line",
-		"the bypass"
-	],
-	"too far": [
-		"you've went too far",
-		"you should double back",
-		"you're nearly there",
-		"turn round",
-		"keep going"
-	],
-	"possiblejunction": [
-		" ",
-		"at the junction",
-		"by the #landmark#",
-		"when you meet the road coming down from #landmark#",
-		" ",
-		"at the roundabout"
-	]
-}
+	"origin":["#start# #middle# #end# #emoji#"],
+	
+	"start":["Tonight’s dinner will be #food#", 
+           "Hey! You should try eating #food#", 
+           "I bet you’re craving #food#", 
+           "Go out to a restaurant today and try #food#", 
+           "#celebrity#’s favorite meal is #food#",
+           "#celebrity#’s least favorite meal is #food#",
+          "Why don't you have #food#",
+          "Try some #food#",
+          "Taste some #food#",
+          "Today's breakfast is #food#",
+          "Today's #mealtype# will be #food#"],
+	
+	"middle":["with a side of #food#.", "imported from #location#.", 
+            "with no #ingredient#.", "with extra #ingredient#.", "with #ingredient#",
+            "#actioned# for #number# #timeunit#.", 
+            "cooked in #location# for #number# #timeunit#"],
+	
+	"end":["Enjoy!", "Yum!", "Sounds interesting…", "Ew…", "Mmmmm!", 
+         "Yuck!", "Try this at your own risk!", "Gross.", "Actually, no.", 
+         "haha!", "LOL!", "", "Delish!", "Amazing!", "EWWW!", "Stinky.", "I Wish!", "Yum in my tum!", "Try it!", "Tasty!"],
+	
+	"food":["steak", "potatoes", "tilapia", "salmon", "tacos", "cupcakes", "chocolate", "crepes", "pad thai", "duck",
+          "turkey", "spaghetti", "filet mignon", "ramen", "spam", "curry", "frog legs","garbage plates", "burritos",
+          "cereal", "rice", "beans", "sushi","fried rice","tuna", "pasta", "pizza", "orange chicken", "poke bowl", "lechon", "a #amount# of dirt", "a #amount# of #ingredient#",
+          "pulled pork","beef brisket","Caesar salad","chicken","ratatouille","ice cream","dumplings","wonton soup", "lobster"],
+	
+	"ingredient":["ketchup", "hummus","marshmallow fluff","mustard", "sprinkles","kimchi", "soy sauce", "onions", "gluten",
+                "pickles", "anchovies", "salt", "ginger", "mayo", "hot sauce", "raisins", "sesame seeds","sugar",
+                "peanuts", "peanut butter", "jelly","peach jam","pesto","bean sprouts","caramel"],
+  
+  "amount":["bowl","mouthful","taste","bite","bucket"],
+	
+	"actioned":["fried", "baked", "marinated", "simmered", "deep fried", 
+              "aged", "stale", "soaked", "spoiled", "seasoned", "spiced","tossed"],
+	
+	"number":["2", "3", "4", "5", "6", "7", "8", "9", "10", "0", "100"],
+  "mealtype":["breakfast", "lunch", "dinner", "snack", "midnight snack"],
+  "emoji":["", "😄","#thumbsup#","#thumbsdown#",
+           "🤮","🤢","😱","😨","😂","😍","😋","😯","😭"],
+  "thumbsup":["👍🏻","👍🏽","👍🏽","👍🏾","👍🏾","👍🏿"],
+  "thumbsdown":["👎🏽","👎🏻","👎🏼","👎🏾","👎🏿"],
+	
+	"timeunit":["minutes", "hours", "days", "weeks", "years", "lifetimes", "eons", "seconds"],
+	
+	"celebrity":["Mariah Carey", "Beyonce", "Donald Trump", "Ariana Grande", 
+               "Snoop Dogg", "Miley Cyrus", "My mom", "Joe..JoeMama", "Lil nas x", 
+               "Your principal", "North West","Barack Obama","Carly Rae Jepsen","Lady Gaga","Hilary Duff",
+               "Jimmy Kimmel","Spongebob", "Mickey Mouse", "Gordon Ramsey", "Guy Fieri", "Kim K"],
+	
+	"location":["France", "Maine", "Kentucky", "Alaska", "Hawaii", "Idaho", 
+              "Italy", "England", "the bathroom", "Hell's Kitchen", "Turkey"]
+	}
+
